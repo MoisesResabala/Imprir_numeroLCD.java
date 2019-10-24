@@ -85,7 +85,7 @@ public class Print_Number {
         }
 
         for (Digito digito : digitos) {
-            //Calcula puntos fijos
+            //puntosfijos
             this.pf1[0] = 0;
             this.pf1[1] = 0 + pivotX;
 
@@ -116,10 +116,10 @@ public class Print_Number {
     }
 
     /**
-     *
+
      * Metodo encargado de un segmento a la matriz de Impresion
-     *
-     * @param segmento Segmento a adicionar
+
+
      */
     private void newSegmento(int segmento) {
 
@@ -159,14 +159,10 @@ public class Print_Number {
 
 
     /**
-     *
+
      * Metodo encargado de añadir una linea a la matriz de Impresion
-     *
-     * @param matriz Matriz Impresion
-     * @param punto Punto Pivote
-     * @param posFija Posicion Fija
-     * @param size Tamaño Segmento
-     * @param caracter Caracter Segmento
+
+
      */
     private void addLine(String[][] matriz, int[] punto, String posFija,
                                 int size, String caracter) {

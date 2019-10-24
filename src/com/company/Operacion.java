@@ -63,7 +63,7 @@ public class Operacion {
 
     /**
      * Este método revisa que todos los comandos cumplan con los requerimientos e imprime los números
-     * @param iterator un iterador del String de comandos
+
      */
     private void imprimirValor(Iterator<String> iterator){
 

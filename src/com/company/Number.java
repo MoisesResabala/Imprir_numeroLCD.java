@@ -21,7 +21,7 @@ public class Number {
     }
 
     private void obtenerDigitos(){
-        // crea el arreglo de digitos
+        // crea el arreglo de digito
         char[] arregloDigitos = this.txtNumber.toCharArray();
 
         //Generar cada uno de los objetos Digito que tiene el numero
@@ -37,13 +37,11 @@ public class Number {
         }
 
     }
-    /**
-     *
-     * Metodo encargado de definir los segmentos que componen un digito y
-     * a partir de los segmentos adicionar la representacion del digito a la matriz
-     *
-     * @paramnumerDigito
-     */
+
+
+    // Metodo encargado de definir los segmentos que componen un digito y
+    //  a partir de los segmentos adicionar la representacion del digito a la matriz
+
     private void addDigito(int number) {
 
         // Establece los segmentos de cada numero
